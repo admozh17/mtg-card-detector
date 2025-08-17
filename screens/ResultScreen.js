@@ -42,7 +42,7 @@ export default function ResultScreen({ route, navigation }) {
       });
 
       // Make API call to Flask backend
-      const response = await fetch('http://192.168.35.21:5001/detect-card', {
+      const response = await fetch('http://192.168.200.171:5001/detect-card', {
         method: 'POST',
         body: formData,
         headers: {
